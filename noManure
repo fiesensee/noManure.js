@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ ${1} = "startProject" ]; then
+  /home/felix/Code/noManure/newProject.sh ${2}
+fi
+if [ ${1} = "newComponent" ]; then
+  /home/felix/Code/noManure/newComponent.sh ${2}
+fi;
